@@ -1,0 +1,113 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;   /* üst pembe kısmın konumu */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #8d5454;
+    color: #ffffff;
+    padding: 20px;
+}
+ 
+nav {
+    text-align: center; /* Menüyü yatay olarak ortala */
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Menü öğelerini yatay olarak ortala */
+}
+
+nav ul li {
+    display: inline-block; /* Menü öğelerini yatay olarak hizala */
+    margin-right: 20px; /* Sağ taraftan boşluk bırak */
+    margin-left: 20px; /* Sol taraftan boşluk bırak */
+    
+}
+
+nav ul li:first-child {
+    margin-left: 0; /* İlk menü öğesinden sol taraftan boşluk bırakma */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Son menü öğesinden sağ taraftan boşluk bırakma */
+}
+
+
+nav ul li a {
+    color: black;
+    text-decoration:lab(from color l a b);
+    font-weight: bold;
+    font-size: 25px;;
+    
+}
+
+
+#resim {
+    text-align: center; /* Resmi yatay olarak ortala */
+    margin-top: 3%;
+
+}
+
+.about-image {
+    width: 35%; /* Resmin genişliği */
+    height: auto; /* Otomatik yükseklik ayarı */
+    border-radius: 1%;
+}
+
+
+#about, #projects, #contact {
+    padding-left: 20px; /* Hakkımda ve İş Deneyimi bölümlerini sola doğru 20px kaydır */
+}
+
+
+/* styles.css */
+
+.contact-info {
+    display: flex;
+    flex-direction: column; /* İletişim öğelerini dikey olarak hizala */
+    
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* İletişim öğeleri arasında boşluk bırak */
+    
+}
+
+.contact-item img {
+    width: 30px; /* İkon genişliği */
+    margin-right: 10px; /* İkon ile metin arasındaki boşluk */
+    
+}
+
+
+.contact-item a {
+    color: black; /* Mail adresinin rengini siyah yap */
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column; /* İletişim öğelerini dikey olarak hizala */
+    background-color: #f2f2f2; /* Gri arka plan rengi */
+}
+
+.contact-info {
+    padding: 0; /* İletişim bölümüne iç boşluk ekleme */
+}
+
+
+#welcome-button {
+    position: fixed;
+    bottom:5px;
+    right: 5px;
+  }
+  
+
+
